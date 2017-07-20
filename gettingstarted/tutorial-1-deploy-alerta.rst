@@ -109,6 +109,7 @@ uses a unix socket to communicate with the nginx web server::
 
     master = true
     processes = 5
+    lazy-apps = true
     logger = syslog:alertad
 
     socket = /tmp/uwsgi.sock
